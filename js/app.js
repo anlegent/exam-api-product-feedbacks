@@ -16,6 +16,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   const list = await data();
   console.log(list);
 
+  function sortType(option) {}
+
+  function sortNumber(option) {}
+
   for (let i = 0; i < list.length; i++) {
     let feedbackWrapper = document.querySelector("#feedback-wrapper");
 
